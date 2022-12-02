@@ -8,6 +8,8 @@ regular
         avail
         exit
 record transaction/history
+    display history
+    exit
 with menu(ui)
 
 https://github.com/bndckymt/group-tatlo?fbclid=IwAR0T7j-3fpdIw1M9BxEdMIpfxS5OEGiPs4zqzj7ptvIrM7qLkKrM_2QnOgU

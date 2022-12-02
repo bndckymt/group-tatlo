@@ -1,8 +1,13 @@
 # group-tatlo
 loading system(tm)
 - *143#
-direct or regular
-record transaction
+direct promo
+regular
+    promo
+        description
+        avail
+        exit
+record transaction/history
 with menu(ui)
 
 https://github.com/bndckymt/group-tatlo?fbclid=IwAR0T7j-3fpdIw1M9BxEdMIpfxS5OEGiPs4zqzj7ptvIrM7qLkKrM_2QnOgU

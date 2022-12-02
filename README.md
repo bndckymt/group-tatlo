@@ -2,12 +2,13 @@
 loading system(tm)
 - *143#
 direct promo
-    
-regular
     promo
-        description
-        avail
-        exit
+        list of promos
+            description
+            avail
+            exit
+regular
+    value load
 record transaction/history
     display history
     exit

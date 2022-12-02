@@ -1,3 +1,4 @@
+// Online C++ compiler to run C++ program online
 #include <iostream>
 <<<<<<< HEAD:testinfile/testinfile/main.cpp
 using namespace std;
@@ -21,9 +22,40 @@ void displaymenu()
     cout << "Enter Your Choice: ";
     cin >> num1;
 }
+<<<<<<< HEAD:testinfile/testinfile/main.cpp
 int main()
 {
     displaymenu();
 >>>>>>> master:load processing system/main.cpp
 }
 
+=======
+
+void RegLoad(){
+    int num;
+    int amount;
+    char yn;
+    do{
+        cout << "Enter 10 digit number Example: " << endl;
+        cout << "905xxxxxx" << endl;
+        cin >> num;
+    
+        cout << "Enter amount: " << endl;
+        cin >> amount;
+    
+        cout << "Your number " << num << " received " << amount << endl;
+    
+        cout << "Do you want to load again?y/n: " << endl;
+        cin >> yn;
+    }while(yn=='y');
+    cout << "Thank you" << endl;
+}
+    
+int main() {
+    displaymenu();
+    RegLoad();
+   
+
+    return 0;
+}
+>>>>>>> master:load processing system/main.cpp
